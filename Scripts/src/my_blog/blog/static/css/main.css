@@ -7,3 +7,81 @@
 body{
     font-family: 'Tajawal, sans-serif'
 }
+
+/* start contact me */
+
+.contact{
+    background:#252F31;
+    clear:both;
+    overflow:hidden;
+    padding-top:50px;
+    padding-bottom:70px
+}
+
+.contact .info{width:50%;float:left;}
+
+.contact h2{color:#fff;margin-left:40px}
+
+.contact p{
+    color:#7E8689;
+    margin-left:40px;
+    line-height:1.6
+}
+
+.contact p strong{color:#d1d6da}
+
+.contact .form{
+    width:45%;
+    margin-left:45px;
+    margin-top:50px;
+    float:left;
+}
+
+.contact .form lable{
+    display:block;
+    margin-bottom:12px;
+    color:#d1d6da;
+}
+
+.contact .form input{
+    background:#4B5557;
+    padding:10px;
+    width:80%;
+    color:#fff;
+    border:0px;
+    margin-bottom:30px
+}
+
+.contact .form textarea{
+    background:#4B5557;
+    padding:10px;
+    width:80%;
+    color:#fff;
+    border:0px;
+    margin-bottom:30px;
+    height:200px
+}
+
+.contact .form input[type="submit"]{
+    background:#191E22;
+    padding:12px 25px;
+    color:#d1d6da;
+    font-weight:bold;
+    border:0;
+    width:160px
+}
+
+/* END contact me */
+
+/* start footer */
+
+.footer{
+    text-align: center;
+    background: #191E22;
+    padding:20px 0;
+    color:#ababab
+}
+
+.footer .icon{display:inline;margin-left:5px;cursor:pointer}
+
+/* END footer */
